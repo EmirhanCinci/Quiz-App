@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+/* btn-start etiketi */
+.btn-start {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* quiz-box etiketi */
+.quiz-box {
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.title {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.timer {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #143f68;
+}
+
+.time-second {
+    width: 25px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #F0A500;
+}
+
+.time-line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 100%;
+    background-color: black;
+}
+
+/* quiz-box etiketi */
+.question-text {
+    padding: 15px 0;
+}
+
+.option {
+    margin: 10px 0px;
+    padding: 8px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #151D3B;
+    border-radius: 5px;
+}
+
+.option.correct {
+    color: #155724;
+    background-color: #d4edda;
+}
+
+.option.incorrect {
+    color: #721c24;
+    background-color: #f8d7da;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* score-box etiketi */
+.score-box {
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    border: 1px solid #151D3B;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+}
+
+.score-box i {
+    color: #0d6efd;
+    font-size: 96px;
+}
+
+.score-text {
+    margin: 15px 0px;
+    font-weight: 700;
+}

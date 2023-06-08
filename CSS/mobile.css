@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .quiz-box {
+        width: 90%;
+    }
+
+    .score-box {
+        width: 90%;
+    }
+}
